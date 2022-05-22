@@ -39,10 +39,14 @@ public class Tutorial {
 	private LocalDate checkOut;
 	
 	@Column(name = "numberClicks")
-	private int numberClicks;	
-	
+	private int numberClicks;
+
+	public Tutorial() {
+	}
+
 	public Tutorial(long id, String title, String description, boolean published, LocalDate checkIn, LocalDate checkOut,
 			int numberClicks) {
+		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
@@ -51,16 +55,6 @@ public class Tutorial {
 		this.checkOut = checkOut;
 		this.numberClicks = numberClicks;
 	}
-	
-	public Tutorial(long id, String title, LocalDate checkIn, LocalDate checkOut,int numberClicks) {
-		this.id = id;
-		this.title = title;
-		this.checkIn = checkIn;
-		this.checkOut = checkOut;
-		this.numberClicks = numberClicks;
-	}
-
-	
 
 	public long getId() {
 		return id;
@@ -122,6 +116,8 @@ public class Tutorial {
 	public String toString() {
 		return "Tutorial [id=" + id + ", title=" + title + ", description=" + description + ", published=" + published
 				+ ", checkIn=" + checkIn + ", checkOut=" + checkOut + ", numberClicks=" + numberClicks + "]";
-	}
+	}	
+	
+	
 	
 }

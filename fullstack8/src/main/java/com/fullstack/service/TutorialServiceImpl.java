@@ -56,18 +56,4 @@ public class TutorialServiceImpl implements TutorialService {
 		
 	}
 	
-	/*
-	@Override
-	public List<Tutorial> findByTitleContaining(String title) {		
-		return this.tutorialRepository.findByTitleContaining(title); 
-				
-	}
-
-	@Override
-	public List<Tutorial> findByPublished(boolean published) {
-		return null;
-	}
-*/
-	
-
 }

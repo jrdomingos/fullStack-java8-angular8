@@ -40,8 +40,8 @@ public class TutorialController {
 		this.tutorialService.create(tutorial);
 
 		return ResponseEntity.status(HttpStatus.CREATED).body(tutorial);
-	}
-
+	}	
+	
 	@CrossOrigin
 	@GetMapping
 	@ResponseBody
@@ -49,7 +49,7 @@ public class TutorialController {
 		List<Tutorial> result = this.tutorialService.findAll();
 
 		return ResponseEntity.ok(result);
-	}
+	}  
 
 	@GetMapping("/{id}")
 	@ResponseBody
