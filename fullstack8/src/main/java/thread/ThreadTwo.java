@@ -15,11 +15,13 @@ public class ThreadTwo extends Thread  {
 		try {
 			for (int i = 0; i < 6; i++) {
 				System.out.println(name + " contador " + i);
-				Thread.sleep(400);
+				Thread.sleep(time);
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		
+		System.out.println(name + " Terminou a execução");
 
 	}
 }
