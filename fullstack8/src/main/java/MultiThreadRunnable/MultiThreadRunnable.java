@@ -1,15 +1,14 @@
-package com.fullstack.runnable;
+package MultiThreadRunnable;
 
-public class MyThreadRunnable implements Runnable {
+public class MultiThreadRunnable implements Runnable {
 
 	private String name;
 	private int time;
 
-	public MyThreadRunnable(String name, int time) {
+	public MultiThreadRunnable(String name, int time) {
 		this.name = name;
 		this.time = time;
-		Thread t = new Thread(this);
-		t.start();
+		
 	}
 
 	@Override
@@ -17,17 +16,18 @@ public class MyThreadRunnable implements Runnable {
 		try {
 
 			for (int i = 0; i < 6; i++) {
-				System.out.println(name + " contador ");
-
+				System.out.println(name + " contador " + i);
 				Thread.sleep(time);
 			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
-
 		}
+		 
 		System.out.println(name + " terminou a execução ");
 
 	}
 
+	
 }
+
