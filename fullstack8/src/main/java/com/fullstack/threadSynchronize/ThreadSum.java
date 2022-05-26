@@ -1,4 +1,4 @@
-package com.fullstack.synchronize;
+package com.fullstack.threadSynchronize;
 
 public class ThreadSum implements Runnable{
 	

@@ -1,6 +1,6 @@
 package com.fullstack.threadDefiningProperties;
 
-import MultiplesThreadRunnable.MultiThreadRunnable;
+import com.fullstack.threadMultiplesRunnable.MultiThreadRunnable;
 
 public class threadDefiningPropertiesTest {
 

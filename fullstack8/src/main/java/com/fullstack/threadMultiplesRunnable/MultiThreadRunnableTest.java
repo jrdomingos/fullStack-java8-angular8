@@ -1,4 +1,4 @@
-package MultiplesThreadRunnable;
+package com.fullstack.threadMultiplesRunnable;
 
 public class MultiThreadRunnableTest {
 

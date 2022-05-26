@@ -1,4 +1,4 @@
-package thread;
+package com.fullstack.thread;
 
 public class MyThreadOne extends Thread {
 

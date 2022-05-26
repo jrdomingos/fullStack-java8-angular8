@@ -1,10 +1,11 @@
-package thread;
+package com.fullstack.thread;
 
-public class ThreadTwo extends Thread  {
+public class ThreadThree extends Thread {
+    
 	private String name;
 	private int time;
 
-	public ThreadTwo(String name, int time) {
+	public ThreadThree(String name, int time) {
 		this.name = name;
 		this.time = time;
 		start();
@@ -21,7 +22,8 @@ public class ThreadTwo extends Thread  {
 			e.printStackTrace();
 		}
 		
-		System.out.println(name + " Terminou a execução");
+		System.out.println(name + "  Terminou a execução");
 
 	}
+	
 }

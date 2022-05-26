@@ -1,29 +1,33 @@
-package thread;
+package com.fullstack.threadMultiplesRunnable;
 
-public class ThreadThree extends Thread {
-    
+public class MultiThreadRunnable implements Runnable {
+
 	private String name;
 	private int time;
 
-	public ThreadThree(String name, int time) {
+	public MultiThreadRunnable(String name, int time) {
 		this.name = name;
 		this.time = time;
-		start();
+		
 	}
 
+	@Override
 	public void run() {
-
 		try {
+
 			for (int i = 0; i < 6; i++) {
 				System.out.println(name + " contador " + i);
 				Thread.sleep(time);
 			}
-		} catch (InterruptedException e) {
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		System.out.println(name + "  Terminou a execução");
+		 
+		System.out.println(name + " terminou a execução ");
 
 	}
+
 	
 }
+
