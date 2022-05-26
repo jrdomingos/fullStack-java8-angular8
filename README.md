@@ -5,5 +5,5 @@
 - Interface Runable
 - Multithreads join
 - Multiples threads definindo prioriades
-
+- Threads: métodos e blocos sincronizados (synchronized)
 
