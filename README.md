@@ -1,7 +1,9 @@
 # fullStack  java 8 with Angular 8 
 
 - Api Restfull SpringBoot 
-- Threads
+- threads metodo star, run, sleep
 - Interface Runable
-- Multithreads
+- Multithreads join
+- Multiples threads definindo prioriades
+
 

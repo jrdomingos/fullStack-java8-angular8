@@ -8,8 +8,7 @@ public class MyTestRunnable {
 				
 		MyThreadRunnable thread2 = new MyThreadRunnable("2#", 700);
 		
-		MyThreadRunnable thread3 = new MyThreadRunnable("3#", 900);
-		
+		MyThreadRunnable thread3 = new MyThreadRunnable("3#", 900);		
 		
 	}
 

@@ -1,4 +1,4 @@
-package MultiThreadRunnable;
+package MultiplesThreadRunnable;
 
 public class MultiThreadRunnableTest {
 

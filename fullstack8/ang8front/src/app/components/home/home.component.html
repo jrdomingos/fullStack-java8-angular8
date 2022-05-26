@@ -1,4 +1,3 @@
-<p>home works!</p>
 
 <main class="main" id="main">
     <div class="container">
@@ -12,8 +11,28 @@
             <label for="">Descrição :</label>
             <input type="text" name="description" class="form-control" placeholder="descrição" [(ngModel)]="tutorial.description"/>
           </div>
+                                                  
+          
+          <div class="form-group">                    // [(ngModel)]="user.dataNascimento | date:'dd/MM/yyyy'"
+            <label for="">Data :</label>
+            <input type="text" name="check_in" class="form-control" placeholder="data " [(ngModel)]="tutorial.check_in "/>
+          </div>
+          <div class="form-group">
+            <label for="">Check_out :</label>
+            <input type="text" name="check_out" class="form-control" placeholder="data separado por traços" [(ngModel)]="tutorial.check_out"/>
+          </div>
+          <div class="form-group">
+            <label for="">Clicks :</label>
+            <input type="text" name="number_clicks" class="form-control" placeholder="quantidade de clicks" [(ngModel)]="tutorial.number_clicks"/>
+          </div>
+
+
+
+
+
+
            <div class="form-check">
-              <input type="radio" class="form-check-input" name="published" [(ngModel)]="tutorial.published" [value]="true"/>
+              <input type="radio" class="form-check-input" name="done" [(ngModel)]="tutorial.published" [value]="true"/>
               <label for="" class="form-check-label">Published</label>
            </div>
            <div class="form-check">
@@ -31,6 +50,10 @@
             <tr>
               <th>Id</th>              
               <th>Title</th>  
+              <th>Descrição</th>  
+              <th>check_in</th> 
+              <th>check_out</th> 
+              <th>Clicks</th> 
               <th>Done</th>            
               <th>Update</th>
               <th>Delete</th>
@@ -41,6 +64,10 @@
             <tr>
               <td>{{tutorial.id}}</td>
               <td>{{tutorial.title}}</td>
+              <td>{{tutorial.description}}</td>
+              <td>{{tutorial.check_in}}</td>
+              <td>{{tutorial.check_out}}</td>
+              <td>{{tutorial.number_clicks}}</td>
               <td>
                 <span *ngIf="tutorial.published" class="badge badge-primary">{{tutorial.published}}</span>
                 <span *ngIf="!tutorial.published" class="badge badge-secondary">{{tutorial.published}}</span>
