@@ -8,4 +8,5 @@
 - Threads: métodos e blocos sincronizados (synchronized)
 - Threads: notify, wait e notifyAll
 - Threads: resume, suspend e stop
+- Threads: Dead Lock
 

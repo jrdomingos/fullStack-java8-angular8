@@ -1,4 +1,4 @@
-package com.fullstack.ThreadsResumeSuspendStop;
+package com.fullstack.threadsResumeSuspendStop;
 
 public class ThreadsResumeSuspendStopTest {
 
