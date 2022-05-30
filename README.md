@@ -10,3 +10,4 @@
 - Threads: resume, suspend e stop
 - Threads: Dead Lock
 - Threads: Semaphore Simulator
+- Static Import
