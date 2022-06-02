@@ -13,3 +13,4 @@
 - Static Import
 - Passagem de parâmetro por referência
 - Varargs
+- printf
