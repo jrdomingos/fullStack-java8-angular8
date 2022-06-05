@@ -1,4 +1,4 @@
-package com.fullstack.calendar;
+package com.fullstack.calendar7;
 
 import java.util.Calendar;
 
