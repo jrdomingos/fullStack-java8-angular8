@@ -21,3 +21,4 @@
 - Local Date
 - Local Time, Local Date Time , Zone id
 - Resource Bundle - exibir mensagens de arquivos .properties
+- Number Format 
