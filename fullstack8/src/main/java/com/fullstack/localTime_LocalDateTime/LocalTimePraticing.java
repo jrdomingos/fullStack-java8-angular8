@@ -1,4 +1,4 @@
-package com.fullstack.localTime;
+package com.fullstack.localTime_LocalDateTime;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -40,18 +40,7 @@ public class LocalTimePraticing {
 		
 		System.out.println(LocalDateTime.parse("2022-06-06T08:43:29.260"));
 		
-		System.out.println();
 		
-		ZoneId fuso = ZoneId.systemDefault();
-		System.out.println(fuso);
-		
-		System.out.println();
-		
-		Set<String>fusos = ZoneId.getAvailableZoneIds();
-		
-		for(String f: fusos) {
-			System.out.println(f);
-		}
 		
 		
 		
