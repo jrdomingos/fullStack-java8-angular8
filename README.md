@@ -24,3 +24,4 @@
 - Number Format 
 - Decimal Format
 - Big Decimal, Big Integer
+- Random - aleatory number
