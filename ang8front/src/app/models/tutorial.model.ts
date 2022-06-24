@@ -3,8 +3,8 @@ export class Tutorial {
     title?: string;
     description?: string;
     published?: boolean;
-    check_in?:string;
-    check_out?:string;
+    checkIn?:string;
+    checkOut?:string;
     number_clicks?:string;
   }
   
