@@ -1,5 +1,13 @@
 # fullStack  java 8 with Angular 8 
 
+----------- ANGULAR ----------
+- Formulário CRUD
+
+
+
+
+---------- JAVA ----------
+
 - Api Restfull SpringBoot com Java 8 e Angular 8 (CRUD)
 - Threads: threads metodo star, run, sleep
 - Threads: Interface Runable
@@ -25,3 +33,5 @@
 - Decimal Format
 - Big Decimal, Big Integer
 - Random - aleatory number
+
+

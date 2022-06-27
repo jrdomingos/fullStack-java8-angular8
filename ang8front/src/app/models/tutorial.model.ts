@@ -5,6 +5,6 @@ export class Tutorial {
     published?: boolean;
     checkIn?:string;
     checkOut?:string;
-    number_clicks?:string;
+    numberClicks?:string;
   }
   
