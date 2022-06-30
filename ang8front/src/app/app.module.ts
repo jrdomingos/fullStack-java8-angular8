@@ -10,6 +10,10 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TypescripPracticingComponent } from './components/typescrip-practicing/typescrip-practicing.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -17,13 +21,16 @@ import { HomeComponent } from './components/home/home.component';
     AddTutorialComponent,
     TutorialDetailsComponent,
     TutorialsListComponent,
-    HomeComponent
+    HomeComponent,
+    TypescripPracticingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatCardModule
     
   ],
   providers: [],
